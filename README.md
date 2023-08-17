@@ -1,19 +1,24 @@
-# Seeker Game
+# Jumper Game
 
 ##  Overview
-Seeker is a game in which the player seeks to find the hider by guessing its location. The hider gives hints until it is found.
+Jumper is a game in which the player seeks to solve a puzzle by guessing the letters of a secret word one at a time. 
 
 ## Rules
-Seeker is played according to the following rules.
+Jumper is played according to the following rules.
 
-    The hider's location is a random number between 1 and 1000.
-    The seeker searches for the hider by guessing its location.
-    If the guess is closer to the hider's location it says, "Getting warmer!"
-    If the guess is farther away from the hider's location it says, "Getting colder!"
-    If the guess is correct the hider says, "You found me!". The game is over.
+    The puzzle is a secret word randomly chosen from a list.
+    The player guesses a letter in the puzzle.
+    If the guess is correct, the letter is revealed.
+    If the guess is incorrect, a line is cut on the player's parachute.
+    If the puzzle is solved the game is over.
+    If the player has no more parachute the game is over.
+
 
  ## Interface
-![seeker-screenshot](https://github.com/vonsouza/Seeker-Game/assets/94578866/0834f939-d648-4417-a808-b47a5669268a)
+![jumper-screenshot-1](https://github.com/vonsouza/Seeker-Game/assets/94578866/bb918faa-4eea-43f5-a80c-24b654df0850)
+
+play continues until...
+![jumper-screenshot-2](https://github.com/vonsouza/Seeker-Game/assets/94578866/d87a165f-b982-41dd-a9b8-d5fa32079df0)
 
 
  ## Required Technologies
